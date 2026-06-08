@@ -10,7 +10,7 @@ export default function Login ({navigation}) {
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged(user => {
             if (user) {
-                navigation.navigate('HomeMenu');
+                props.navigation.navigate('HomeMenu');
             }
         });
         return () => unsubcribe();

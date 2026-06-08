@@ -24,7 +24,7 @@ export default function Registro() {
                 })
                 .then(() => {
                     console.log("Usuario registrado y guardado en la colección 'users'");
-                    navigation.navigate('Login');
+                    props.navigation.navigate('Login');
                 })
                 .catch(error => {
                     setRegisterError('Error al guardar los datos: ' + error.message);
