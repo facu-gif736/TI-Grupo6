@@ -16,3 +16,283 @@
 {"_e":"metro:bundling:done","_t":1780666134879,"id":"1","total":1,"ms":113.073541}
 {"_e":"metro:client_log","_t":1780666134927,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
 {"_e":"metro:client_log","_t":1780666134928,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"root:init","_t":1780960391252,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1780960391252,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1780960391253,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1780960393000,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1780960393451,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1780960393633,"atlas":false,"workers":7,"host":"::","port":8082}
+{"_e":"metro:bundling:started","_t":1780960394107,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780960394107,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780960394112,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780960394212,"id":"1","progress":0.9888580256546299,"total":179,"current":178}
+{"_e":"metro:bundling:progress","_t":1780960394315,"id":"1","progress":0.999,"total":179,"current":179}
+{"_e":"metro:bundling:failed","_t":1780960394319,"id":"1","message":"Unable to resolve \"@react-navigation/native\" from \"App.js\"\n  1 | import React from 'react';\n> 2 | import { NavigationContainer } from '@react-navigation/native';\n    |                                      ^\n  3 | import { createStackNavigator } from '@react-navigation/stack';\n  4 | import Login from './src/screens/Login';\n  5 | import Registro from './src/screens/Registro';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@react-navigation/native\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@react-navigation/native","originModulePath":"App.js"}
+{"_e":"root:init","_t":1781215103257,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781215103257,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781215103258,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781215103348,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781215103478,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781215103693,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781215104072,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781215104072,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781215104073,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1781215104127,"id":"1","message":"Unable to resolve \"@react-navigation/native\" from \"App.js\"\n  1 | import React from 'react';\n> 2 | import { NavigationContainer } from '@react-navigation/native';\n    |                                      ^\n  3 | import { createStackNavigator } from '@react-navigation/stack';\n  4 | import Login from './src/screens/Login';\n  5 | import Registro from './src/screens/Registro';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@react-navigation/native\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@react-navigation/native","originModulePath":"App.js"}
+{"_e":"root:init","_t":1781458962653,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781458962654,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781458962655,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781458962743,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781458962871,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781458963082,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781458963510,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781458963511,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781458963513,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781458963695,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781458963797,"id":"1","progress":0.42533081285444235,"total":23,"current":15}
+{"_e":"metro:bundling:progress","_t":1781458963897,"id":"1","progress":0.42533081285444235,"total":38,"current":24}
+{"_e":"metro:bundling:progress","_t":1781458963997,"id":"1","progress":0.6010604721626057,"total":89,"current":69}
+{"_e":"metro:bundling:progress","_t":1781458964098,"id":"1","progress":0.8841612831365561,"total":134,"current":126}
+{"_e":"metro:bundling:progress","_t":1781458964199,"id":"1","progress":0.9886040816326531,"total":175,"current":174}
+{"_e":"metro:bundling:progress","_t":1781458964665,"id":"1","progress":0.999,"total":175,"current":175}
+{"_e":"metro:bundling:failed","_t":1781458964687,"id":"1","message":"Unable to resolve \"@react-navigation/native\" from \"App.js\"\n  1 | import React from 'react';\n> 2 | import { NavigationContainer } from '@react-navigation/native';\n    |                                      ^\n  3 | import { createStackNavigator } from '@react-navigation/stack';\n  4 | import Login from './src/screens/Login';\n  5 | import Registro from './src/screens/Registro';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@react-navigation/native\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@react-navigation/native","originModulePath":"App.js"}
+{"_e":"root:init","_t":1781466131352,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466131352,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466131353,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466131448,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466131594,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466131820,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466132220,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466132220,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466132222,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1781466132280,"id":"1","message":"Unable to resolve \"@react-navigation/native\" from \"App.js\"\n  1 | import React from 'react';\n> 2 | import { NavigationContainer } from '@react-navigation/native';\n    |                                      ^\n  3 | import { createStackNavigator } from '@react-navigation/stack';\n  4 | import Login from './src/screens/Login';\n  5 | import Registro from './src/screens/Registro';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@react-navigation/native\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@react-navigation/native","originModulePath":"App.js"}
+{"_e":"root:init","_t":1781466281903,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466281904,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466281904,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466281983,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466282092,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466282339,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466285938,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466285938,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466285939,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466286122,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781466286222,"id":"1","progress":0.05536332179930796,"total":34,"current":8}
+{"_e":"metro:bundling:progress","_t":1781466286322,"id":"1","progress":0.1024,"total":75,"current":24}
+{"_e":"metro:bundling:progress","_t":1781466286422,"id":"1","progress":0.23990004164931278,"total":98,"current":48}
+{"_e":"metro:bundling:progress","_t":1781466286523,"id":"1","progress":0.23990004164931278,"total":199,"current":96}
+{"_e":"metro:bundling:progress","_t":1781466286625,"id":"1","progress":0.4306640625,"total":224,"current":147}
+{"_e":"metro:bundling:progress","_t":1781466286726,"id":"1","progress":0.5525444444444444,"total":300,"current":223}
+{"_e":"metro:bundling:progress","_t":1781466286826,"id":"1","progress":0.7552437641723356,"total":336,"current":292}
+{"_e":"metro:bundling:progress","_t":1781466286927,"id":"1","progress":0.811740063945483,"total":414,"current":373}
+{"_e":"metro:bundling:progress","_t":1781466287027,"id":"1","progress":0.811740063945483,"total":497,"current":442}
+{"_e":"metro:bundling:progress","_t":1781466287127,"id":"1","progress":0.9809709390960373,"total":523,"current":518}
+{"_e":"metro:bundling:progress","_t":1781466287227,"id":"1","progress":0.9962721374470929,"total":536,"current":535}
+{"_e":"metro:bundling:progress","_t":1781466287631,"id":"1","progress":0.999,"total":536,"current":536}
+{"_e":"metro:bundling:failed","_t":1781466287651,"id":"1","message":"Unable to resolve \"export-navigation/bottom-tabs\" from \"src/components/HomeMenu.js\"\n  1 | import React from 'react';\n> 2 | import { createBottomTabNavigator } from 'export-navigation/bottom-tabs';\n    |                                           ^\n  3 | import { FontAwesome } from '@expo/vector-icons';\n  4 | import Home from '../screens/Home';\n  5 | import Perfil from '../screens/Perfil';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"export-navigation/bottom-tabs\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"export-navigation/bottom-tabs","originModulePath":"src/components/HomeMenu.js"}
+{"_e":"root:init","_t":1781466300523,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466300523,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466300524,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466300605,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466300697,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466300919,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466301152,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466301153,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466301154,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466301254,"id":"1","progress":0.8949159999999999,"total":500,"current":473}
+{"_e":"metro:bundling:failed","_t":1781466301278,"id":"1","message":"Unable to resolve \"export-navigation/bottom-tabs\" from \"src/components/HomeMenu.js\"\n  1 | import React from 'react';\n> 2 | import { createBottomTabNavigator } from 'export-navigation/bottom-tabs';\n    |                                           ^\n  3 | import { FontAwesome } from '@expo/vector-icons';\n  4 | import Home from '../screens/Home';\n  5 | import Perfil from '../screens/Perfil';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"export-navigation/bottom-tabs\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"export-navigation/bottom-tabs","originModulePath":"src/components/HomeMenu.js"}
+{"_e":"root:init","_t":1781466421148,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466421148,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466421149,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466421227,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466421315,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466421536,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466421776,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466421776,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466421778,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466421878,"id":"1","progress":0.7450415512465375,"total":475,"current":410}
+{"_e":"metro:bundling:progress","_t":1781466421979,"id":"1","progress":0.9962997256515774,"total":540,"current":539}
+{"_e":"metro:bundling:failed","_t":1781466421995,"id":"1","message":"Unable to resolve \"../firebase/firebaseConfig\" from \"src/screens/Login.js\"\n  1 | import React, { useState, useEffect } from 'react';\n  2 | import { View, Text, StyleSheet, TextInput, Pressable } from 'react-native';\n> 3 | import { auth} from '../firebase/firebaseConfig';\n    |                      ^\n  4 |\n  5 | export default function Login ({navigation}) {\n  6 |     const [email, setEmail] = useState('');","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/Login.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../firebase/firebaseConfig\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screens/Login\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"../firebase/firebaseConfig","originModulePath":"src/screens/Login.js"}
+{"_e":"metro:bundling:started","_t":1781466538157,"id":"3","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466538157,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466538158,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466538258,"id":"3","progress":0.7385862886348795,"total":441,"current":379}
+{"_e":"metro:bundling:progress","_t":1781466538359,"id":"3","progress":0.950185861537213,"total":555,"current":541}
+{"_e":"metro:bundling:progress","_t":1781466538491,"id":"3","progress":0.9537018099180262,"total":555,"current":542}
+{"_e":"metro:bundling:progress","_t":1781466538592,"id":"3","progress":0.9537018099180262,"total":561,"current":545}
+{"_e":"metro:bundling:progress","_t":1781466538692,"id":"3","progress":0.9578255286794607,"total":563,"current":551}
+{"_e":"metro:bundling:progress","_t":1781466538802,"id":"3","progress":0.9753313465117448,"total":564,"current":557}
+{"_e":"metro:bundling:progress","_t":1781466538903,"id":"3","progress":0.9858659021175997,"total":564,"current":560}
+{"_e":"metro:bundling:progress","_t":1781466539019,"id":"3","progress":0.9929203762386198,"total":564,"current":562}
+{"_e":"metro:bundling:progress","_t":1781466539257,"id":"3","progress":0.996457044414265,"total":564,"current":563}
+{"_e":"metro:bundling:progress","_t":1781466539458,"id":"3","progress":0.999,"total":564,"current":564}
+{"_e":"metro:bundling:failed","_t":1781466539458,"id":"3","message":"Unable to resolve \"@expo/vector-icons\" from \"src/components/HomeMenu.js\"\n  1 | import React from 'react';\n  2 | import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';\n> 3 | import { FontAwesome } from '@expo/vector-icons';\n    |                              ^\n  4 | import Home from '../screens/Home';\n  5 | import Perfil from '../screens/Perfil';\n  6 | import CrearPosteo from '../screens/CrearPosteo';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@expo/vector-icons\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@expo/vector-icons","originModulePath":"src/components/HomeMenu.js"}
+{"_e":"root:init","_t":1781466550624,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466550624,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466550625,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466550705,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466550795,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466551017,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466551328,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466551328,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466551330,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466551430,"id":"1","progress":0.6515685199014016,"total":389,"current":314}
+{"_e":"metro:bundling:failed","_t":1781466551499,"id":"1","message":"Unable to resolve \"@expo/vector-icons\" from \"src/components/HomeMenu.js\"\n  1 | import React from 'react';\n  2 | import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';\n> 3 | import { FontAwesome } from '@expo/vector-icons';\n    |                              ^\n  4 | import Home from '../screens/Home';\n  5 | import Perfil from '../screens/Perfil';\n  6 | import CrearPosteo from '../screens/CrearPosteo';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@expo/vector-icons\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"@expo/vector-icons","originModulePath":"src/components/HomeMenu.js"}
+{"_e":"root:init","_t":1781466712237,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466712237,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466712238,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466712329,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466712466,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466712735,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466715732,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466715732,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466715734,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466715925,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781466716026,"id":"1","progress":0.027777777777777776,"total":30,"current":5}
+{"_e":"metro:bundling:progress","_t":1781466716075,"id":"1","progress":0.04000000000000001,"total":30,"current":6}
+{"_e":"metro:bundling:progress","_t":1781466716176,"id":"1","progress":0.08604444444444445,"total":75,"current":22}
+{"_e":"metro:bundling:progress","_t":1781466716277,"id":"1","progress":0.22145328719723184,"total":136,"current":64}
+{"_e":"metro:bundling:progress","_t":1781466716377,"id":"1","progress":0.22145328719723184,"total":239,"current":101}
+{"_e":"metro:bundling:progress","_t":1781466716477,"id":"1","progress":0.3157011666536168,"total":299,"current":168}
+{"_e":"metro:bundling:progress","_t":1781466716577,"id":"1","progress":0.4089681450998323,"total":405,"current":259}
+{"_e":"metro:bundling:progress","_t":1781466716677,"id":"1","progress":0.6056899810964083,"total":460,"current":358}
+{"_e":"metro:bundling:progress","_t":1781466716778,"id":"1","progress":0.7003420353346739,"total":472,"current":395}
+{"_e":"metro:bundling:progress","_t":1781466716877,"id":"1","progress":0.7003420353346739,"total":500,"current":411}
+{"_e":"metro:bundling:progress","_t":1781466716979,"id":"1","progress":0.740400216333153,"total":516,"current":444}
+{"_e":"metro:bundling:progress","_t":1781466717079,"id":"1","progress":0.740400216333153,"total":561,"current":467}
+{"_e":"metro:bundling:progress","_t":1781466717179,"id":"1","progress":0.740400216333153,"total":572,"current":492}
+{"_e":"metro:bundling:progress","_t":1781466717279,"id":"1","progress":0.7766384044921197,"total":598,"current":527}
+{"_e":"metro:bundling:progress","_t":1781466717379,"id":"1","progress":0.8887150736229679,"total":611,"current":576}
+{"_e":"metro:bundling:progress","_t":1781466717479,"id":"1","progress":0.916704391127207,"total":658,"current":630}
+{"_e":"metro:bundling:progress","_t":1781466717579,"id":"1","progress":0.99103813331421,"total":668,"current":665}
+{"_e":"metro:bundling:progress","_t":1781466717680,"id":"1","progress":0.9940209401556169,"total":668,"current":666}
+{"_e":"metro:bundling:progress","_t":1781466717884,"id":"1","progress":0.9970082290508803,"total":668,"current":667}
+{"_e":"metro:bundling:progress","_t":1781466718023,"id":"1","progress":0.999,"total":668,"current":668}
+{"_e":"metro:bundling:failed","_t":1781466718042,"id":"1","message":"Unable to resolve \"firebase/compat/app\" from \"src/screens/Home.js\"\n  2 | import { View, Text, StyleSheet, FlatList, ActivityIndicator, Pressable, Image } from 'react-native';\n  3 | import { auth, db } from '../firebase/config';\n> 4 | import firebase from 'firebase/compat/app';\n    |                       ^\n  5 | import { FontAwesome } from '@expo/vector-icons';\n  6 |\n  7 | export default function Home(props) {","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/Home.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"firebase/compat/app\"\u001b[39m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../screens/Home\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"firebase/compat/app","originModulePath":"src/screens/Home.js"}
+{"_e":"root:init","_t":1781466836203,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781466836204,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781466836204,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781466836294,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781466836431,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781466836652,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781466836878,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781466836878,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466836879,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781466836986,"id":"1","progress":0.6633010946965671,"total":485,"current":395}
+{"_e":"metro:bundling:progress","_t":1781466837088,"id":"1","progress":0.9970260239512472,"total":672,"current":671}
+{"_e":"metro:bundling:progress","_t":1781466837189,"id":"1","progress":0.999,"total":672,"current":672}
+{"_e":"metro:bundling:done","_t":1781466837309,"id":"1","total":672,"ms":430.626459}
+{"_e":"metro:client_log","_t":1781466837436,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781466837437,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:started","_t":1781466846715,"id":"3","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:started","_t":1781467402670,"id":"4","platform":"web","environment":null,"entry":"src/firebase/config.js"}
+{"_e":"metro:bundling:started","_t":1781467402700,"id":"5","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467402700,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467402731,"id":"5","total":1,"ms":30.8}
+{"_e":"metro:bundling:started","_t":1781467402859,"id":"7","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:client_log","_t":1781467402911,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467402911,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:failed","_t":1781467455031,"id":null,"message":"SyntaxError: /Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js: Unexpected token (4:21)\n\n  2 | import { View, Text, StyleSheet, FlatList, ActivityIndicator, Pressable, Image } from 'react-native';\n  3 | import { auth, db } from '../firebase/config';\n> 4 | import firebase from ;\n    |                      ^\n  5 | import { FontAwesome } from '@expo/vector-icons';\n  6 |\n  7 | export default function Home(props) {","importStack":null,"filename":"src/screens/Home.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1781467459558,"id":null,"message":"Unable to resolve module  from /Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js:  could not be found within the project or in these directories:\n  node_modules\n  2 | import { View, Text, StyleSheet, FlatList, ActivityIndicator, Pressable, Image } from 'react-native';\n  3 | import { auth, db } from '../firebase/config';\n> 4 | import firebase from '';\n    | ^^^^^^^^^^^^^^^^^^^^^^^^\n  5 | import { FontAwesome } from '@expo/vector-icons';\n  6 |\n  7 | export default function Home(props) {","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/Home.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"\"\u001b[39m\n\n\u001b[90m \u001b[39msrc/components/HomeMenu.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../screens/Home\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/HomeMenu\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"","originModulePath":"/Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js"}
+{"_e":"metro:bundling:started","_t":1781467462385,"id":"9","platform":"web","environment":null,"entry":"src/screens/Home.js"}
+{"_e":"metro:bundling:failed","_t":1781467474271,"id":null,"message":"Unable to resolve module  from /Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js:  could not be found within the project or in these directories:\n  node_modules\n  2 | import { View, Text, StyleSheet, FlatList, ActivityIndicator, Pressable, Image } from 'react-native';\n  3 | import { auth, db } from '../firebase/config';\n> 4 | import firebase from \"\";\n    | ^^^^^^^^^^^^^^^^^^^^^^^^\n  5 | import { FontAwesome } from '@expo/vector-icons';\n  6 |\n  7 | export default function Home(props) {","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/Home.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screens/Home\"\u001b[39m\n","filename":null,"targetModuleName":"","originModulePath":"/Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js"}
+{"_e":"metro:bundling:failed","_t":1781467477033,"id":null,"message":"SyntaxError: /Users/facu/Documents/GitHub/TI-Grupo6/TI/src/screens/Home.js: Unterminated string constant. (4:21)\n\n  2 | import { View, Text, StyleSheet, FlatList, ActivityIndicator, Pressable, Image } from 'react-native';\n  3 | import { auth, db } from '../firebase/config';\n> 4 | import firebase from \"firebase\n    |                      ^\n  5 | \";\n  6 | import { FontAwesome } from '@expo/vector-icons';\n  7 |","importStack":null,"filename":"src/screens/Home.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1781467478489,"id":"a","platform":"web","environment":null,"entry":"src/screens/Home.js"}
+{"_e":"root:init","_t":1781467518376,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781467518377,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781467518377,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781467518467,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781467518616,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781467518893,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781467521504,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467521504,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781467521506,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781467521698,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781467521800,"id":"1","progress":0.04725897920604915,"total":23,"current":5}
+{"_e":"metro:bundling:progress","_t":1781467521908,"id":"1","progress":0.1758584807492196,"total":31,"current":13}
+{"_e":"metro:bundling:progress","_t":1781467522009,"id":"1","progress":0.1758584807492196,"total":128,"current":36}
+{"_e":"metro:bundling:progress","_t":1781467522109,"id":"1","progress":0.1758584807492196,"total":215,"current":90}
+{"_e":"metro:bundling:progress","_t":1781467522209,"id":"1","progress":0.2466555560560335,"total":298,"current":148}
+{"_e":"metro:bundling:progress","_t":1781467522309,"id":"1","progress":0.34451795841209837,"total":368,"current":216}
+{"_e":"metro:bundling:progress","_t":1781467522409,"id":"1","progress":0.40220854181893145,"total":462,"current":293}
+{"_e":"metro:bundling:progress","_t":1781467522509,"id":"1","progress":0.5317427952515815,"total":517,"current":377}
+{"_e":"metro:bundling:progress","_t":1781467522609,"id":"1","progress":0.5733903571786562,"total":519,"current":393}
+{"_e":"metro:bundling:progress","_t":1781467522714,"id":"1","progress":0.6769359824014256,"total":536,"current":441}
+{"_e":"metro:bundling:progress","_t":1781467522814,"id":"1","progress":0.7427522289934704,"total":579,"current":499}
+{"_e":"metro:bundling:progress","_t":1781467522914,"id":"1","progress":0.7678818152832394,"total":582,"current":510}
+{"_e":"metro:bundling:progress","_t":1781467523014,"id":"1","progress":0.8188867206078617,"total":589,"current":533}
+{"_e":"metro:bundling:progress","_t":1781467523115,"id":"1","progress":0.9395528250526541,"total":619,"current":600}
+{"_e":"metro:bundling:progress","_t":1781467523215,"id":"1","progress":0.9791206345852561,"total":667,"current":660}
+{"_e":"metro:bundling:progress","_t":1781467523316,"id":"1","progress":0.9940209401556169,"total":668,"current":666}
+{"_e":"metro:bundling:progress","_t":1781467523651,"id":"1","progress":0.9970082290508803,"total":668,"current":667}
+{"_e":"metro:bundling:progress","_t":1781467523752,"id":"1","progress":0.999,"total":672,"current":672}
+{"_e":"metro:bundling:done","_t":1781467523811,"id":"1","total":672,"ms":2307.325625}
+{"_e":"metro:client_log","_t":1781467523936,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467523936,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:started","_t":1781467527645,"id":"3","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:started","_t":1781467657352,"id":"4","platform":"web","environment":null,"entry":"src/components/HomeMenu.js"}
+{"_e":"metro:bundling:started","_t":1781467657364,"id":"5","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467657364,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467657392,"id":"5","total":1,"ms":27.806709}
+{"_e":"metro:bundling:started","_t":1781467657514,"id":"7","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:client_log","_t":1781467657565,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467657565,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:started","_t":1781467661611,"id":"9","platform":"web","environment":null,"entry":"src/components/HomeMenu.js"}
+{"_e":"metro:bundling:started","_t":1781467661632,"id":"a","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467661633,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467661662,"id":"a","total":1,"ms":29.608583}
+{"_e":"metro:bundling:started","_t":1781467661782,"id":"c","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:client_log","_t":1781467661858,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467661858,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:started","_t":1781467663613,"id":"e","platform":"web","environment":null,"entry":"src/components/HomeMenu.js"}
+{"_e":"metro:bundling:started","_t":1781467663630,"id":"f","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467663630,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467663651,"id":"f","total":1,"ms":21.255542}
+{"_e":"metro:bundling:started","_t":1781467663788,"id":"h","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:client_log","_t":1781467663868,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467663868,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:bundling:started","_t":1781467665993,"id":"j","platform":"web","environment":null,"entry":"src/components/HomeMenu.js"}
+{"_e":"metro:bundling:started","_t":1781467666008,"id":"k","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467666008,"id":"k","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467666032,"id":"k","total":1,"ms":24.009709}
+{"_e":"metro:bundling:started","_t":1781467666154,"id":"m","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:client_log","_t":1781467666230,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467666230,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:client_log","_t":1781467666230,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1781467666230,"level":"warn","data":["An error occurred in the <App> component.\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.\n"]}
+{"_e":"metro:bundling:started","_t":1781467675383,"id":"p","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:started","_t":1781467694195,"id":"q","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:client_log","_t":1781467694391,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:started","_t":1781467700194,"id":"r","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1781467701944,"id":"s","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:client_log","_t":1781467706554,"level":"error","data":["The action 'NAVIGATE' with payload {\"name\":\"Register\"} was not handled by any navigator.\n\nDo you have a screen named 'Register'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.\n\nIf you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.\n\nThis is a development-only warning and won't be shown in production."]}
+{"_e":"metro:client_log","_t":1781467707241,"level":"error","data":["The action 'NAVIGATE' with payload {\"name\":\"Register\"} was not handled by any navigator.\n\nDo you have a screen named 'Register'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.\n\nIf you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.\n\nThis is a development-only warning and won't be shown in production."]}
+{"_e":"metro:client_log","_t":1781467707811,"level":"error","data":["The action 'NAVIGATE' with payload {\"name\":\"Register\"} was not handled by any navigator.\n\nDo you have a screen named 'Register'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.\n\nIf you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.\n\nThis is a development-only warning and won't be shown in production."]}
+{"_e":"metro:client_log","_t":1781467708489,"level":"error","data":["The action 'NAVIGATE' with payload {\"name\":\"Register\"} was not handled by any navigator.\n\nDo you have a screen named 'Register'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.\n\nIf you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.\n\nThis is a development-only warning and won't be shown in production."]}
+{"_e":"metro:client_log","_t":1781467709911,"level":"error","data":["The action 'NAVIGATE' with payload {\"name\":\"Register\"} was not handled by any navigator.\n\nDo you have a screen named 'Register'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.\n\nIf you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.\n\nThis is a development-only warning and won't be shown in production."]}
+{"_e":"metro:bundling:started","_t":1781467733649,"id":"u","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:started","_t":1781467733793,"id":"v","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1781467733794,"id":"w","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1781467733795,"id":"x","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"root:init","_t":1781467822193,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1781467822194,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781467822194,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781467822285,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781467822424,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781467822630,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1781467822958,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467822958,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781467822959,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781467823061,"id":"1","progress":0.9888580256546299,"total":179,"current":178}
+{"_e":"metro:bundling:progress","_t":1781467823151,"id":"1","progress":0.999,"total":179,"current":179}
+{"_e":"metro:bundling:progress","_t":1781467823251,"id":"1","progress":0.999,"total":618,"current":553}
+{"_e":"metro:bundling:done","_t":1781467823304,"id":"1","total":618,"ms":346.4285}
+{"_e":"metro:client_log","_t":1781467823439,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467823439,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:client_log","_t":1781467823439,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1781467823439,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:started","_t":1781467828915,"id":"3","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1781467828915,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1781467828957,"id":"3","total":1,"ms":41.919833}
+{"_e":"metro:client_log","_t":1781467829050,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1781467829051,"level":"warn","data":["\nIt looks like you're using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require('firebase/app');\nrequire('firebase/<PACKAGE>');\n\nES Modules:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n\nTypescript:\nimport firebase from 'firebase/app';\nimport 'firebase/<PACKAGE>';\n"]}
+{"_e":"metro:client_log","_t":1781467829051,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1781467829051,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}

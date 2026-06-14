@@ -1,11 +1,11 @@
 import React from 'react';
-import { createBottomTabNavigator } from 'export-navigation/bottom-tabs';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { FontAwesome } from '@expo/vector-icons';
 import Home from '../screens/Home';
 import Perfil from '../screens/Perfil';
 import CrearPosteo from '../screens/CrearPosteo';
 
-const Tab = createBottomTabNavigation();
+const Tab = createBottomTabNavigator();
 
 export default function HomeMenu() {
     return (

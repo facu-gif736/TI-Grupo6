@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, Pressable } from 'react-native';
-import { auth} from '../firebase/firebaseConfig';
+import { auth} from '../firebase/config';
 
 export default function Login ({navigation}) {
     const [email, setEmail] = useState('');
@@ -19,7 +19,7 @@ export default function Login ({navigation}) {
     const onSubmit = () => {
         setLoginError('');
         if (email === '' || password === '') {
-            setLoginError('Por favor, complete todos los campos');
+            setLoginError('Por favor, completar todos los campos');
             return;
         }
         auth.signInWithEmailAndPassword(email, password)
@@ -56,7 +56,7 @@ export default function Login ({navigation}) {
                 <Text style={styles.textoBoton}>Ingresar</Text>
             </Pressable>
 
-            <Pressable onPress={() => navigation.navigate('Register')}>
+            <Pressable onPress={() => navigation.navigate('Registro')}>
                 <Text style={styles.textoLink}>¿No tenés cuenta? Registrate acá</Text>
             </Pressable>
         </View>
