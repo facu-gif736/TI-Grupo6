@@ -25,7 +25,7 @@ export default function Profile(props) {
     function handleLogout() {
         auth.signOut()
             .then(() => {
-                props.navigation.navigate('login');
+                props.navigation.navigate('Login');
             })
             .catch(error => {
                 console.log(error);

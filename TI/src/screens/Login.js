@@ -1,20 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, Pressable } from 'react-native';
-import { auth} from '../firebase/config';
+import { auth } from '../firebase/config';
 
-export default function Login ({navigation}) {
+export default function Login({ navigation }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [loginError, setLoginError] = useState('');
 
-    useEffect(() => {
-        const unsubscribe = auth.onAuthStateChanged(user => {
-            if (user) {
-                props.navigation.navigate('HomeMenu');
-            }
-        });
-        return () => unsubcribe();
-    }, []);
 
     const onSubmit = () => {
         setLoginError('');
@@ -22,12 +14,13 @@ export default function Login ({navigation}) {
             setLoginError('Por favor, completar todos los campos');
             return;
         }
+        
         auth.signInWithEmailAndPassword(email, password)
             .then(() => {
                 navigation.navigate('HomeMenu');
             })
             .catch(error => {
-                setLoginError('Credenciales incorrectas' + error.message);
+                setLoginError('Credenciales incorrectas: ' + error.message);
             });
     };
 

@@ -19,13 +19,13 @@ export default function HomeMenu() {
             
             <Tab.Screen 
                 name="NewPost" 
-                component={NewPost} 
+                component={CrearPosteo} 
                 options={{ tabBarIcon: () => <FontAwesome name="plus-square" size={24} color="black" /> }}
             />
             
             <Tab.Screen 
                 name="Profile" 
-                component={Profile} 
+                component={Perfil} 
                 options={{ tabBarIcon: () => <FontAwesome name="user" size={24} color="black" /> }}
             />
 
