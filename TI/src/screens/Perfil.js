@@ -7,7 +7,7 @@ export default function Profile(props) {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        db.collection('posteos')
+        db.collection('posts')
             .where('email', '==', auth.currentUser.email)
             .onSnapshot(docs => {
                 let posts = [];
